@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/154221051766713993/30fce2caedbd4aa19ef6b96fd05034d0/artifacts
+end_time: 1748377740007
+entry_point_name: ''
+experiment_id: '154221051766713993'
+lifecycle_stage: active
+run_id: 30fce2caedbd4aa19ef6b96fd05034d0
+run_name: valuable-shrike-674
+run_uuid: 30fce2caedbd4aa19ef6b96fd05034d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748377739991
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1748378852185
+current_stage: Production
+description: ''
+last_updated_timestamp: 1748378855354
+name: churn_prediction_logistic_regression
+run_id: 90f3333e070d407c98e49eb0da0a6e6e
+run_link: ''
+source: mlflow-artifacts:/827269819766965661/90f3333e070d407c98e49eb0da0a6e6e/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/827269819766965661/90f3333e070d407c98e49eb0da0a6e6e/artifacts/model
+user_id: null
+version: 3

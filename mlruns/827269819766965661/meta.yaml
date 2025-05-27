@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/827269819766965661
+creation_time: 1748377803423
+experiment_id: '827269819766965661'
+last_update_time: 1748377803423
+lifecycle_stage: active
+name: spark-sklearn-churn-prediction

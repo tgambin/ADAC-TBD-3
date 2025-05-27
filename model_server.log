@@ -1,0 +1,44 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/bin/mlflow", line 8, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/mlflow/models/cli.py", line 102, in serve
+    return get_flavor_backend(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/mlflow/models/flavor_backend_registry.py", line 44, in get_flavor_backend
+    artifact_repo = get_artifact_repository(root_uri)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/mlflow/store/artifact/artifact_repository_registry.py", line 131, in get_artifact_repository
+    return _artifact_repository_registry.get_artifact_repository(artifact_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/mlflow/store/artifact/artifact_repository_registry.py", line 76, in get_artifact_repository
+    return repository(artifact_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/mlflow/store/artifact/runs_artifact_repo.py", line 26, in __init__
+    uri = RunsArtifactRepository.get_underlying_uri(artifact_uri)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/mlflow/store/artifact/runs_artifact_repo.py", line 37, in get_underlying_uri
+    (run_id, artifact_path) = RunsArtifactRepository.parse_runs_uri(runs_uri)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/mlflow/store/artifact/runs_artifact_repo.py", line 54, in parse_runs_uri
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Not a proper runs:/ URI: runs://model. Runs URIs must be of the form 'runs:/<run_id>/run-relative/path/to/artifact'

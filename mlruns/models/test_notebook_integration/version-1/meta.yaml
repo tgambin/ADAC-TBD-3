@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1748377807106
+current_stage: None
+description: ''
+last_updated_timestamp: 1748377807106
+name: test_notebook_integration
+run_id: 7ce6e411877c4b8cb49d76ba882abe1a
+run_link: ''
+source: mlflow-artifacts:/827269819766965661/7ce6e411877c4b8cb49d76ba882abe1a/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/827269819766965661/7ce6e411877c4b8cb49d76ba882abe1a/artifacts/model
+user_id: null
+version: 1

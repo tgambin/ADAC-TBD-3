@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/758829289898210442/54f9a0d68a0c4bc389d579f9b1d7544a/artifacts
+end_time: 1748377699258
+entry_point_name: ''
+experiment_id: '758829289898210442'
+lifecycle_stage: active
+run_id: 54f9a0d68a0c4bc389d579f9b1d7544a
+run_name: rare-horse-723
+run_uuid: 54f9a0d68a0c4bc389d579f9b1d7544a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748377699244
+status: 3
+tags: []
+user_id: codespace

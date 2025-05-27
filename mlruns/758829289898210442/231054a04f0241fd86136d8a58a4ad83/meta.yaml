@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/758829289898210442/231054a04f0241fd86136d8a58a4ad83/artifacts
+end_time: 1748377684345
+entry_point_name: ''
+experiment_id: '758829289898210442'
+lifecycle_stage: active
+run_id: 231054a04f0241fd86136d8a58a4ad83
+run_name: worried-worm-948
+run_uuid: 231054a04f0241fd86136d8a58a4ad83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748377684328
+status: 3
+tags: []
+user_id: codespace

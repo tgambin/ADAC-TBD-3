@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/154221051766713993
+creation_time: 1748377739952
+experiment_id: '154221051766713993'
+last_update_time: 1748377739952
+lifecycle_stage: active
+name: notebook-integration-test

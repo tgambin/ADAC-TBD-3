@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/758829289898210442
+creation_time: 1748377684267
+experiment_id: '758829289898210442'
+last_update_time: 1748377684267
+lifecycle_stage: active
+name: test-http-connection

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1748378855305
+current_stage: None
+description: ''
+last_updated_timestamp: 1748378855305
+name: churn_prediction_random_forest
+run_id: 50226a43058c442ba6a43388c2514419
+run_link: ''
+source: mlflow-artifacts:/827269819766965661/50226a43058c442ba6a43388c2514419/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/827269819766965661/50226a43058c442ba6a43388c2514419/artifacts/model
+user_id: null
+version: 3
